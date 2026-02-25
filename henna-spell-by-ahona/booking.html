@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+<head>
+  
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="theme-color" content="#070A12" />
+<link rel="stylesheet" href="assets/css/style.css" />
+
+  <title>Booking — Henna Spell by Ahona</title>
+  <meta name="description" content="Book your mehendi date with Henna Spell by Ahona (Bajitpur). WhatsApp booking: 01937589991.">
+</head>
+<body>
+  
+<div class="nav">
+  <div class="container">
+    <div class="navInner">
+      <a class="brand" href="index.html">
+        <span class="logoMark" aria-hidden="true"></span>
+        <span class="brandText">
+          Henna Spell by Ahona
+          <small>Bajitpur • Home Service</small>
+        </span>
+      </a>
+
+      <div class="navRight">
+        <button class="iconBtn" type="button" aria-label="Open menu" aria-expanded="false" data-nav-toggle>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <a class="btn small primary" href="booking.html">Book Now</a>
+      </div>
+
+      <nav class="navLinks" data-nav-links>
+        <a href="index.html" >Home</a>
+<a href="gallery.html" >Gallery</a>
+<a href="packages.html" >Packages</a>
+<a href="booking.html" aria-current="page">Booking</a>
+<a href="about.html" >About</a>
+<a href="contact.html" >Contact</a>
+      </nav>
+    </div>
+  </div>
+</div>
+
+  
+<div class="container section">
+  <div class="heroGrid" style="margin-top: 8px">
+    <div class="panel reveal">
+      <div class="panelInner">
+        <div class="h2">Book Your Date</div>
+        <p class="sub">Fill the form and WhatsApp will open with a ready booking message. Edit anything you want, then send.</p>
+
+        <form data-booking-form>
+          <div class="formGrid">
+            <div class="field">
+              <label for="bname">Name</label>
+              <input id="bname" name="name" placeholder="Your name" required>
+            </div>
+            <div class="field">
+              <label for="bphone">Phone (optional)</label>
+              <input id="bphone" name="phone" placeholder="01XXXXXXXXX">
+            </div>
+            <div class="field">
+              <label for="bdate">Event Date</label>
+              <input id="bdate" name="date" type="date" required>
+            </div>
+            <div class="field">
+              <label for="btime">Time</label>
+              <input id="btime" name="time" type="time">
+            </div>
+            <div class="field">
+              <label for="barea">Area</label>
+              <input id="barea" name="area" value="Bajitpur">
+            </div>
+            <div class="field">
+              <label for="bpackage">Package / Type</label>
+              <select id="bpackage" name="package">
+                <option>Basic (Guest/Party)</option>
+                <option>Bridal Standard</option>
+                <option>Bridal Premium</option>
+                <option>Arabic Flow</option>
+                <option>Minimal Modern</option>
+                <option>Custom (describe in notes)</option>
+              </select>
+            </div>
+            <div class="field" style="grid-column: 1 / -1">
+              <label for="bnotes">Notes</label>
+              <textarea id="bnotes" name="notes" placeholder="Write your preference: full hand/backhand, motifs, number of hands, budget, etc."></textarea>
+            </div>
+          </div>
+
+          <div class="formActions">
+            <button class="btn primary" type="submit">Open WhatsApp Booking</button>
+            <a class="btn" href="tel:01937589991">Call</a>
+            <a class="btn ghost" href="gallery.html">See Gallery</a>
+          </div>
+        </form>
+
+        <div class="note">
+          WhatsApp: <b style="color: rgba(238,242,255,.92)">01937589991</b><br/>
+          Location: <b style="color: rgba(238,242,255,.92)">Bajitpur</b>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel reveal">
+      <div class="panelInner">
+        <div class="h2">Choose a Style</div>
+        <p class="sub">Tap any design to view it and book something similar.</p>
+
+        <div class="galleryGrid" style="grid-template-columns: repeat(2, 1fr)">
+          <div class="gItem" role="button" tabindex="0" data-open-modal data-src="assets/images/bridal-full-arm.jpg" data-title="Bridal Full Arm" data-tag="Bridal">
+            <img src="assets/images/bridal-full-arm.jpg" alt="Bridal Full Arm">
+            <div class="gTag">Bridal</div>
+          </div>
+          <div class="gItem" role="button" tabindex="0" data-open-modal data-src="assets/images/minimal-two-hands.jpg" data-title="Minimal Floral (Two Hands)" data-tag="Minimal">
+            <img src="assets/images/minimal-two-hands.jpg" alt="Minimal floral">
+            <div class="gTag">Minimal</div>
+          </div>
+          <div class="gItem" role="button" tabindex="0" data-open-modal data-src="assets/images/bridal-royal-palm-1.jpg" data-title="Royal Palm (Architecture)" data-tag="Royal">
+            <img src="assets/images/bridal-royal-palm-1.jpg" alt="Royal palm">
+            <div class="gTag">Royal</div>
+          </div>
+          <div class="gItem" role="button" tabindex="0" data-open-modal data-src="assets/images/bridal-elephant-backhand.jpg" data-title="Elephant Motif Backhand" data-tag="Bridal">
+            <img src="assets/images/bridal-elephant-backhand.jpg" alt="Elephant motif">
+            <div class="gTag">Bridal</div>
+          </div>
+        </div>
+
+        <div class="note">Tip: Tell us your event date + preferred coverage. We’ll reply with availability.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  
+<footer>
+  <div class="container">
+    <div class="footerGrid">
+      <div>
+        <div style="display:flex; align-items:center; gap:10px; margin-bottom:10px">
+          <span class="logoMark" aria-hidden="true"></span>
+          <div>
+            <div style="font-weight:900; color: rgba(238,242,255,.92)">Henna Spell by Ahona</div>
+            <div style="font-size:13px">Bajitpur • Bridal & Party Mehendi</div>
+          </div>
+        </div>
+        <div class="note">Premium mehendi designs with a clean, elegant finish. Home service available in Bajitpur.</div>
+      </div>
+
+      <div>
+        <div style="font-weight:900; color: rgba(238,242,255,.92); margin-bottom:8px">Quick Links</div>
+        <div style="display:grid; gap:8px">
+          <a href="gallery.html">Gallery</a>
+          <a href="packages.html">Packages</a>
+          <a href="booking.html">Booking</a>
+          <a href="about.html">About</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div>
+        <div style="font-weight:900; color: rgba(238,242,255,.92); margin-bottom:8px">Contact</div>
+        <div style="display:grid; gap:8px">
+          <div>WhatsApp: <b style="color: rgba(238,242,255,.92)">01937589991</b></div>
+          <div>Location: <b style="color: rgba(238,242,255,.92)">Bajitpur</b></div>
+          <div style="display:flex; gap:10px; flex-wrap:wrap; margin-top:6px">
+            <a class="btn small" href="booking.html">Book Now</a>
+            <a class="btn small ghost" href="gallery.html">View Work</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+    <div style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap; font-size:13px">
+      <div>© 2026 Henna Spell by Ahona. All rights reserved.</div>
+      <div>Built as a lightweight static website (works on GitHub Pages / Netlify).</div>
+    </div>
+  </div>
+</footer>
+
+
+  <a class="floatWhatsApp" data-wa-float href="#" aria-label="Book on WhatsApp">
+    <span class="waDot" aria-hidden="true"></span>
+    Book on WhatsApp
+  </a>
+
+  <!-- Modal (used by Gallery + Home preview) -->
+  <div class="modal" data-modal>
+    <div class="modalCard">
+      <div class="modalTop">
+        <strong data-modal-title>Henna Design</strong>
+        <button class="modalClose" type="button" aria-label="Close" data-modal-close>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modalBody">
+        <img class="modalImg" data-modal-img alt="Henna design preview">
+        <div class="modalInfo">
+          <p data-modal-text></p>
+          <a class="btn primary" data-modal-cta href="#" target="_blank" rel="noopener">Book Similar Design</a>
+          <div class="note" style="margin-top:10px">
+            WhatsApp: <b style="color: rgba(238,242,255,.92)">01937589991</b><br/>
+            Location: <b style="color: rgba(238,242,255,.92)">Bajitpur</b>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
